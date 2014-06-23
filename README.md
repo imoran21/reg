@@ -1,5 +1,9 @@
 reg
 ===
+
+This is an app for simple django registration handling.  
+
+
 INSTRUCTIONS
 
 1) download this repo
