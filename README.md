@@ -18,10 +18,10 @@ django-admin.py startproject myproject .
 -add this to urls 
 url(r'^reg/', include('reg.urls')), 
 
-
-OPTIONAL
 if you want the homepage to be the login page, add this line
+
 url(r'^$', 'reg.views.home', name='home'),
+
 
 if not then you can put your custom home url or include a different app 
 
