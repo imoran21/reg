@@ -9,6 +9,7 @@ github- reg
 1) Create a django project 
 django-admin.py startproject myproject . 
 2) Copy and paste the 'reg' folder into the same directory as manage.py 
+
 3) open myproject/settings.py 
 -add 'reg' to installed apps 
 
@@ -20,4 +21,4 @@ url(r'^reg/', include('reg.urls')),
 5) sync database 
 python manage.py sycncdb
 
-Example Below....
+
