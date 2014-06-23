@@ -2,9 +2,7 @@ reg
 ===
 INSTRUCTIONS
 
-1) download the reg folder from github - this is a django app
-
-github- reg
+1) download this repo
 
 1) Create a django project 
 
