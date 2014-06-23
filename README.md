@@ -17,9 +17,19 @@ django-admin.py startproject myproject .
 
 -add this to urls 
 url(r'^reg/', include('reg.urls')), 
+~~~~~~~~~
+OPTIONAL
+if you want the homepage to be the login page, add this line
+url(r'^$', 'reg.views.home', name='home'),
+
+if not then you can put your custom home url or include a different app 
+
 
 5) sync database 
 python manage.py sycncdb
 
 
-example at djangoreg.herokuapp.com
+now when you runserver and go to the /reg url, you should see the login page, with a link to register
+
+
+
