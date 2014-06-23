@@ -22,3 +22,4 @@ url(r'^reg/', include('reg.urls')),
 python manage.py sycncdb
 
 
+example at djangoreg.herokuapp.com
